@@ -14,13 +14,15 @@ public class UIPanel : MonoBehaviour
     private bool isActive;
     private Button selectedButton;
     private int selectedButtonId;
+    private MainMenuController mainMenuController;
 
     public UIButton[] Buttons => buttons;
     public int SelectedButtonId {get => selectedButtonId; set => selectedButtonId = value;}
     public Button SelectedButton {get => selectedButton; set => selectedButton = value;}
 
-    public void Initialize()
+    public void Initialize(MainMenuController controller)
     {
+        mainMenuController = controller;
         if (canvasGroup == null) canvasGroup = GetComponent<CanvasGroup>();
         if (buttons != null)
         {
@@ -62,6 +64,11 @@ public class UIPanel : MonoBehaviour
                 transform.DOScale(Vector3.one, inAnimation.duration).onComplete = SelectFirstButton;
                 break;
         }       
+    }
+
+    public void CloseThisPanel()
+    {
+        mainMenuController.CloseCurrentPanel();
     }
 
     public void Deactivate()
