@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class UIButton : MonoBehaviour, ISelectHandler
+public class UIButton : MonoBehaviour, ISelectHandler, IPointerEnterHandler
 {
     [SerializeField] Button button;
 
@@ -21,5 +21,11 @@ public class UIButton : MonoBehaviour, ISelectHandler
     {
         panel.SelectedButtonId = buttonId;
         panel.SelectedButton = button;
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        EventSystem.current.SetSelectedGameObject(gameObject);
+        OnSelect(null);
     }
 }
