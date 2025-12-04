@@ -12,6 +12,7 @@ public class Card : MonoBehaviour
     private Sprite sprite;
     private string value;
     private CardManager cardManager;
+    private DraggableItem draggableItem;
 
     public string Value => value;
 
@@ -24,7 +25,7 @@ public class Card : MonoBehaviour
         }
     }
 
-    public void Initialize(CardDataSO card, CardManager manager)
+    public void Initialize(CardDataSO card, CardManager manager, Transform dragParent = null, Canvas dragCanvas = null)
     {
         cardData = card;
         cardManager = manager;
@@ -32,10 +33,18 @@ public class Card : MonoBehaviour
         cardImage.sprite = sprite;
         value = cardData.value;
         text.text = value;
+        if ( draggableItem == null)
+            draggableItem = GetComponent<DraggableItem>();
+        if (dragParent != null && draggableItem != null && dragCanvas != null)
+        {
+            draggableItem.newParent = dragParent;
+            draggableItem.canvas = dragCanvas;
+        }
     }
 
     public void OnClick()
     {
         cardManager.AddToExpression(this);
+        gameObject.SetActive(false);
     }
 }

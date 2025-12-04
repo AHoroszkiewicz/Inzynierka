@@ -1,8 +1,9 @@
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class EquationManager : MonoBehaviour
+public class EquationManager : MonoBehaviour, IDropHandler
 {
     [SerializeField] private TextMeshProUGUI equationText;
 
@@ -34,5 +35,10 @@ public class EquationManager : MonoBehaviour
     {
         object result = new System.Data.DataTable().Compute(expression, null);
         return Convert.ToDouble(result);
+    }
+
+    public void OnDrop(PointerEventData eventData)
+    {
+        eventData.pointerDrag?.GetComponent<Card>()?.OnClick();
     }
 }
