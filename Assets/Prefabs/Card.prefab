@@ -103,6 +103,7 @@ MonoBehaviour:
   m_VerticalAlignment: 4096
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -148,6 +149,8 @@ GameObject:
   - component: {fileID: 8294258277657622838}
   - component: {fileID: 4669606207496669182}
   - component: {fileID: 5810129062698334306}
+  - component: {fileID: 1272902941961357051}
+  - component: {fileID: 8546635712446411}
   m_Layer: 5
   m_Name: Card
   m_TagString: Untagged
@@ -200,6 +203,7 @@ MonoBehaviour:
   cardData: {fileID: 0}
   cardImage: {fileID: 3536663005708341111}
   text: {fileID: 1407088477491998775}
+  use: 0
 --- !u!114 &5810129062698334306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,6 +234,32 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1272902941961357051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4337947395762045755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 680047397ecf011499f6dcb4fa4ee92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DraggableItem
+  newParent: {fileID: 0}
+  canvas: {fileID: 0}
+--- !u!225 &8546635712446411
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4337947395762045755}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &5459730622576759738
 GameObject:
   m_ObjectHideFlags: 0

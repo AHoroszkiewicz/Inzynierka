@@ -9,6 +9,8 @@ public class CardManager : MonoBehaviour
     [SerializeField] private GameObject cardPrefab;
     [SerializeField] private Transform cardParent;
     [SerializeField] private EquationManager equationManager;
+    [SerializeField] private Transform cardDragParent;
+    [SerializeField] private Canvas canvas;
 
     private List<Card> currentHand = new List<Card>();
     private string currentExpression = "";
@@ -25,15 +27,13 @@ public class CardManager : MonoBehaviour
             CardDataSO randomCard = cardDataList[UnityEngine.Random.Range(0, cardDataList.Count)];
             GameObject newCardObj = Instantiate(cardPrefab, cardParent);
             Card newCard = newCardObj.GetComponent<Card>();
-            newCard.Initialize(randomCard, this);
+            newCard.Initialize(randomCard, this, cardDragParent, canvas);
             currentHand.Add(newCard);
         }
     }
 
     public void AddToExpression(Card card)
     {
-        //currentExpression += card.Value;
-        //Debug.Log("Current Expression: " + currentExpression);
         equationManager.AddToEquation(card.Value);
     }
 
