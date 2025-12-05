@@ -6,6 +6,9 @@ using UnityEngine.EventSystems;
 public class EquationManager : MonoBehaviour, IDropHandler
 {
     [SerializeField] private TextMeshProUGUI equationText;
+    [SerializeField] private HPManager enemy;
+    [SerializeField] private CardManager cardManager;
+    [SerializeField] private TurnManager turnManager;
 
     private string equation;
     private double result;
@@ -37,8 +40,25 @@ public class EquationManager : MonoBehaviour, IDropHandler
         return Convert.ToDouble(result);
     }
 
+    private void ClearEquation()
+    {
+        equation = "";
+        result = 0;
+        equationText.text = "";
+    }
+
     public void OnDrop(PointerEventData eventData)
     {
         eventData.pointerDrag?.GetComponent<Card>()?.OnClick();
+    }
+
+    public void DealDMG()
+    {
+        enemy.TakeDamage((float)result);
+        Debug.Log("Dealing " + result + " damage!");
+        cardManager.ClearHand();
+        cardManager.DrawCards();
+        ClearEquation();
+        turnManager.EndTurn();
     }
 }
