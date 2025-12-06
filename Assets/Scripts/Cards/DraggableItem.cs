@@ -36,5 +36,10 @@ public class DraggableItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEn
     public void OnEndDrag(PointerEventData eventData)
     {
         canvasGroup.blocksRaycasts = true;
+        if (transform.parent == newParent || eventData.pointerEnter == null)
+        {
+            transform.SetParent(originalParent);
+            transform.position = originalPosition;
+        }
     }
 }
