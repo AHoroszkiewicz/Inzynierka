@@ -6,6 +6,8 @@ public class HPManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI hp;
     [SerializeField] private float healthPoints = 100f;
 
+    public float HealthPoints => healthPoints;
+
     private void Start()
     {
         hp.text = healthPoints.ToString("F0");
