@@ -1,4 +1,3 @@
-using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,7 +15,12 @@ public class CardManager : MonoBehaviour
     private List<Card> currentHand = new List<Card>();
     private string currentExpression = "";
 
-    void Start()
+    private void Awake()
+    {
+        GameController.Instance.RegisterCardManager(this);
+    }
+
+    private void Start()
     {
         DrawCards(); // Dobieramy karty na start
     }

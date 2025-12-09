@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4857573798838465853}
-  - component: {fileID: 2818248501862956945}
+  - component: {fileID: 7937469304155941428}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2818248501862956945
+--- !u!114 &7937469304155941428
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,8 +41,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7880324497288285619}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f43d5abab7244d43a1d9531a4116748, type: 3}
+  m_Script: {fileID: 11500000, guid: 202dc1afba300824a979a801cd60790e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TurnManager
+  m_EditorClassIdentifier: Assembly-CSharp::GameController
   playerHPManager: {fileID: 0}
   enemyHPManager: {fileID: 0}
+  endGamePanel: {fileID: 0}

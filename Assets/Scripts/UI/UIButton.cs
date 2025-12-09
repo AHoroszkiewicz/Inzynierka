@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -11,13 +12,13 @@ public class UIButton : MonoBehaviour, ISelectHandler, IPointerEnterHandler
 
     public Button Button => button;
 
-    public virtual void Initialize(UIPanel uiPanel, int id)
+    public void Initialize(UIPanel uiPanel, int id)
     {
         panel = uiPanel;
         buttonId = id;
     }
 
-    public virtual void OnSelect(BaseEventData eventData)
+    public void OnSelect(BaseEventData eventData)
     {
         panel.SelectedButtonId = buttonId;
         panel.SelectedButton = button;
@@ -27,5 +28,14 @@ public class UIButton : MonoBehaviour, ISelectHandler, IPointerEnterHandler
     {
         EventSystem.current.SetSelectedGameObject(gameObject);
         OnSelect(null);
+    }
+
+    public void SetLabel(string label)
+    {
+        var textComponent = button.GetComponentInChildren<TextMeshProUGUI>();
+        if (textComponent != null)
+        {
+            textComponent.text = label;
+        }
     }
 }

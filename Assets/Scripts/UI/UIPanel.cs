@@ -1,6 +1,6 @@
 using DG.Tweening;
-using NUnit.Framework;
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,7 +8,7 @@ public class UIPanel : MonoBehaviour
 {
     [SerializeField] private InAnimation inAnimation;
     [SerializeField] private OutAnimation outAnimation;
-    [SerializeField] private UIButton[] buttons;
+    [SerializeField] private List<UIButton> buttons = new List<UIButton>();
     [SerializeField] private CanvasGroup canvasGroup;
 
     private bool isActive;
@@ -16,17 +16,17 @@ public class UIPanel : MonoBehaviour
     private int selectedButtonId;
     private MainMenuController mainMenuController;
 
-    public UIButton[] Buttons => buttons;
+    public List<UIButton> Buttons => buttons;
     public int SelectedButtonId {get => selectedButtonId; set => selectedButtonId = value;}
     public Button SelectedButton {get => selectedButton; set => selectedButton = value;}
 
-    public void Initialize(MainMenuController controller)
+    public virtual void Initialize(MainMenuController controller)
     {
         mainMenuController = controller;
         if (canvasGroup == null) canvasGroup = GetComponent<CanvasGroup>();
         if (buttons != null)
         {
-            for (int i = 0; i < buttons.Length; i++)
+            for (int i = 0; i < buttons.Count; i++)
             {
                 buttons[i].Initialize(this, i);
             }
@@ -97,7 +97,7 @@ public class UIPanel : MonoBehaviour
     private void SelectFirstButton()
     {
         if (selectedButton != null) selectedButton.Select();
-        else if (buttons.Length > 0)
+        else if (buttons.Count > 0)
         {
             selectedButton = buttons[0].Button;
             selectedButtonId = 0;

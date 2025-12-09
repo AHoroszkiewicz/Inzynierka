@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
@@ -14,6 +13,7 @@ public class MainMenuController : MonoBehaviour
     private List<UIPanel> uIPanels = new List<UIPanel>();
     private UIPanel currentPanel;
     private Stack<UIPanel> panelStack = new Stack<UIPanel>();
+    private GameController gameController => GameController.Instance;
 
     private void Awake()
     {
@@ -21,8 +21,8 @@ public class MainMenuController : MonoBehaviour
         uIPanels.Add(titlePanel);
         menuPanel.Initialize(this);
         uIPanels.Add(menuPanel);
-        //gamePanel.Initialize(this);
-        //uIPanels.Add(gamePanel);
+        gamePanel.Initialize(this);
+        uIPanels.Add(gamePanel);
         optionsPanel.Initialize(this);
         uIPanels.Add(optionsPanel);
     }
@@ -111,6 +111,6 @@ public class MainMenuController : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene(1);
+        gameController.StartGame();
     }
 }

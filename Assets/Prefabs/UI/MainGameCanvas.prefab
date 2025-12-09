@@ -487,6 +487,7 @@ GameObject:
   - component: {fileID: 1656948918744261728}
   - component: {fileID: 3595734494226932398}
   - component: {fileID: 5786257181080182642}
+  - component: {fileID: 5165104518958409168}
   m_Layer: 5
   m_Name: EndGamePanel
   m_TagString: Untagged
@@ -567,6 +568,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EndGamePanel
   panel: {fileID: 2883213189887269984}
   WinTxt: {fileID: 8042801159585613278}
+  canvasGroup: {fileID: 5165104518958409168}
+--- !u!225 &5165104518958409168
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2883213189887269984}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &3486291994255510478
 GameObject:
   m_ObjectHideFlags: 0
@@ -1568,7 +1582,7 @@ GameObject:
   - component: {fileID: 1361531932555460660}
   - component: {fileID: 6884609301551261614}
   - component: {fileID: 5160649851074406165}
-  - component: {fileID: 8694134407117140163}
+  - component: {fileID: 5718260496627899224}
   m_Layer: 5
   m_Name: EnemyPanel
   m_TagString: Untagged
@@ -1634,7 +1648,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &8694134407117140163
+--- !u!114 &5718260496627899224
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1643,9 +1657,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8773590617118027694}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79bae5c8acbdfd446bdc8320c7d8bcd0, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c061a1378ec2d74aae8c62cc9a6bd9e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHPManager
   hp: {fileID: 8656758045125375712}
   healthPoints: 100
 --- !u!1 &8792665097718354527
@@ -1659,7 +1673,7 @@ GameObject:
   - component: {fileID: 5614805524595519563}
   - component: {fileID: 2065301024720104758}
   - component: {fileID: 9157594354530078922}
-  - component: {fileID: 3854899985372022808}
+  - component: {fileID: 741867659464671916}
   m_Layer: 5
   m_Name: PlayerPanel
   m_TagString: Untagged
@@ -1725,7 +1739,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &3854899985372022808
+--- !u!114 &741867659464671916
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1734,9 +1748,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8792665097718354527}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79bae5c8acbdfd446bdc8320c7d8bcd0, type: 3}
+  m_Script: {fileID: 11500000, guid: 5411c8cbf498c4643ba1bb6b69b07384, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHPManager
   hp: {fileID: 2578168624654832273}
   healthPoints: 100
 --- !u!1001 &3062639621577013709
@@ -1872,10 +1886,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 881799874409320429}
     m_Modifications:
-    - target: {fileID: 2414638837997181723, guid: 1f68ce41697e8de4c800846d3955d650, type: 3}
-      propertyPath: enemy
-      value: 
-      objectReference: {fileID: 8694134407117140163}
     - target: {fileID: 2414638837997181723, guid: 1f68ce41697e8de4c800846d3955d650, type: 3}
       propertyPath: cardManager
       value: 
