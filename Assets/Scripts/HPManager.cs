@@ -8,6 +8,11 @@ public class HPManager : MonoBehaviour
 
     public float HealthPoints => healthPoints;
 
+    private void Awake()
+    {
+        Register();
+    }
+
     private void Start()
     {
         hp.text = healthPoints.ToString("F0");
@@ -18,5 +23,15 @@ public class HPManager : MonoBehaviour
         healthPoints -= damage;
         if (healthPoints < 0) healthPoints = 0;
         hp.text = healthPoints.ToString("F0");
+    }
+
+    public void SetHP(float value)
+    {
+        healthPoints = value;
+    }
+
+    virtual public void Register()
+    {
+        // To be overridden in derived classes
     }
 }

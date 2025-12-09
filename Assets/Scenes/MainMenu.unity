@@ -119,6 +119,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &42057817
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4857573798838465853, guid: 44bf849fbd3828c4784342026c975630, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 613.34186
+      objectReference: {fileID: 0}
+    - target: {fileID: 4857573798838465853, guid: 44bf849fbd3828c4784342026c975630, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 709.0636
+      objectReference: {fileID: 0}
+    - target: {fileID: 4857573798838465853, guid: 44bf849fbd3828c4784342026c975630, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4857573798838465853, guid: 44bf849fbd3828c4784342026c975630, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4857573798838465853, guid: 44bf849fbd3828c4784342026c975630, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4857573798838465853, guid: 44bf849fbd3828c4784342026c975630, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4857573798838465853, guid: 44bf849fbd3828c4784342026c975630, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4857573798838465853, guid: 44bf849fbd3828c4784342026c975630, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4857573798838465853, guid: 44bf849fbd3828c4784342026c975630, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4857573798838465853, guid: 44bf849fbd3828c4784342026c975630, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7880324497288285619, guid: 44bf849fbd3828c4784342026c975630, type: 3}
+      propertyPath: m_Name
+      value: GameManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 44bf849fbd3828c4784342026c975630, type: 3}
 --- !u!1 &933862933
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,7 +584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   titlePanel: {fileID: 5650136362292756086}
   menuPanel: {fileID: 5650136362292756084}
-  gamePanel: {fileID: 0}
+  gamePanel: {fileID: 5650136362292756085}
   optionsPanel: {fileID: 1496630128}
 --- !u!4 &1942804383
 Transform:
@@ -707,6 +764,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6101043880388960334, guid: 8ec278522257f56418bb8199ff3fc1ea, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6411849281144688966, guid: 8ec278522257f56418bb8199ff3fc1ea, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -733,7 +794,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7143839700237099586, guid: 8ec278522257f56418bb8199ff3fc1ea, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StartGame
+      value: OpenGamesPanel
       objectReference: {fileID: 0}
     - target: {fileID: 7143839700237099586, guid: 8ec278522257f56418bb8199ff3fc1ea, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -875,6 +936,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2b32488d1e38a34f8a49f775d5b925c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5650136362292756085 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4676889750956167284, guid: 8ec278522257f56418bb8199ff3fc1ea, type: 3}
+  m_PrefabInstance: {fileID: 5650136362292756083}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca91aa08ded93b42be11945661cdf42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GamePanel
 --- !u!114 &5650136362292756086 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5600274981951338426, guid: 8ec278522257f56418bb8199ff3fc1ea, type: 3}
@@ -892,3 +964,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 1942804383}
   - {fileID: 5650136362292756083}
+  - {fileID: 42057817}

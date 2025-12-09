@@ -8,8 +8,8 @@ public class EquationManager : MonoBehaviour, IDropHandler
     [SerializeField] private TextMeshProUGUI equationText;
     [SerializeField] private HPManager enemy;
     [SerializeField] private CardManager cardManager;
-    [SerializeField] private TurnManager turnManager;
-
+    
+    private GameController gameController => GameController.Instance;
     private string equation;
     private double result;
 
@@ -54,11 +54,11 @@ public class EquationManager : MonoBehaviour, IDropHandler
 
     public void DealDMG()
     {
-        enemy.TakeDamage((float)result);
-        Debug.Log("Dealing " + result + " damage!");
-        cardManager.ClearHand();
-        cardManager.DrawCards();
+        //enemy.TakeDamage((float)result);
+        //Debug.Log("Dealing " + result + " damage!");
+        //cardManager.ClearHand();
+        //cardManager.DrawCards();
+        gameController.EndTurn((float)result);
         ClearEquation();
-        turnManager.EndTurn();
     }
 }

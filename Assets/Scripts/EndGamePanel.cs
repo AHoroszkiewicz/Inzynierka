@@ -5,10 +5,18 @@ public class EndGamePanel : MonoBehaviour
 {
     [SerializeField] private GameObject panel;
     [SerializeField] private TextMeshProUGUI WinTxt;
+    [SerializeField] private CanvasGroup canvasGroup;
+
+    private void Awake()
+    {
+        GameController.Instance.RegisterEndGamePanel(this);
+    }
 
     public void ShowEndGamePanel(bool playerWon)
     {
-        panel.SetActive(true);
+        canvasGroup.alpha = 1;
+        canvasGroup.blocksRaycasts = true;
+        canvasGroup.interactable = true;
         WinTxt.text = playerWon ? "Wygrana!" : "Przegrana!";
     }
 }

@@ -119,6 +119,39 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &54020426 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5718260496627899224, guid: a3c65cf88a60d9e479c989da39095c36, type: 3}
+  m_PrefabInstance: {fileID: 2682474086359678335}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c061a1378ec2d74aae8c62cc9a6bd9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHPManager
+--- !u!114 &971621062 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 741867659464671916, guid: a3c65cf88a60d9e479c989da39095c36, type: 3}
+  m_PrefabInstance: {fileID: 2682474086359678335}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5411c8cbf498c4643ba1bb6b69b07384, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHPManager
+--- !u!114 &1135925750 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8046417770913118033, guid: a3c65cf88a60d9e479c989da39095c36, type: 3}
+  m_PrefabInstance: {fileID: 2682474086359678335}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a752c9a3ad8b8fc4cbbf9c759643ccb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1512933747
 GameObject:
   m_ObjectHideFlags: 0
@@ -256,17 +289,6 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
---- !u!114 &1547381980 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3854899985372022808, guid: a3c65cf88a60d9e479c989da39095c36, type: 3}
-  m_PrefabInstance: {fileID: 2682474086359678335}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79bae5c8acbdfd446bdc8320c7d8bcd0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Enemy
 --- !u!1 &1699873364
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,17 +368,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1856717577 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8694134407117140163, guid: a3c65cf88a60d9e479c989da39095c36, type: 3}
-  m_PrefabInstance: {fileID: 2682474086359678335}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79bae5c8acbdfd446bdc8320c7d8bcd0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Enemy
 --- !u!114 &1863793965 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5786257181080182642, guid: a3c65cf88a60d9e479c989da39095c36, type: 3}
@@ -383,11 +394,11 @@ PrefabInstance:
     - target: {fileID: 2818248501862956945, guid: 44bf849fbd3828c4784342026c975630, type: 3}
       propertyPath: enemyHPManager
       value: 
-      objectReference: {fileID: 1856717577}
+      objectReference: {fileID: 0}
     - target: {fileID: 2818248501862956945, guid: 44bf849fbd3828c4784342026c975630, type: 3}
       propertyPath: playerHPManager
       value: 
-      objectReference: {fileID: 1547381980}
+      objectReference: {fileID: 0}
     - target: {fileID: 4857573798838465853, guid: 44bf849fbd3828c4784342026c975630, type: 3}
       propertyPath: m_LocalPosition.x
       value: 957.7222
@@ -432,22 +443,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 7937469304155941428, guid: 44bf849fbd3828c4784342026c975630, type: 3}
+      propertyPath: cardManager
+      value: 
+      objectReference: {fileID: 1135925750}
+    - target: {fileID: 7937469304155941428, guid: 44bf849fbd3828c4784342026c975630, type: 3}
+      propertyPath: endGamePanel
+      value: 
+      objectReference: {fileID: 1863793965}
+    - target: {fileID: 7937469304155941428, guid: 44bf849fbd3828c4784342026c975630, type: 3}
+      propertyPath: enemyHPManager
+      value: 
+      objectReference: {fileID: 54020426}
+    - target: {fileID: 7937469304155941428, guid: 44bf849fbd3828c4784342026c975630, type: 3}
+      propertyPath: playerHPManager
+      value: 
+      objectReference: {fileID: 971621062}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44bf849fbd3828c4784342026c975630, type: 3}
---- !u!114 &1505891968697678345 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2818248501862956945, guid: 44bf849fbd3828c4784342026c975630, type: 3}
-  m_PrefabInstance: {fileID: 1505891968697678344}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f43d5abab7244d43a1d9531a4116748, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TurnManager
 --- !u!1001 &2682474086359678335
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -576,6 +592,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2883213189887269984, guid: a3c65cf88a60d9e479c989da39095c36, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595734494226932398, guid: a3c65cf88a60d9e479c989da39095c36, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4581135693199163782, guid: a3c65cf88a60d9e479c989da39095c36, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -603,7 +627,7 @@ PrefabInstance:
     - target: {fileID: 7168020734289376455, guid: a3c65cf88a60d9e479c989da39095c36, type: 3}
       propertyPath: turnManager
       value: 
-      objectReference: {fileID: 1505891968697678345}
+      objectReference: {fileID: 0}
     - target: {fileID: 9214680187096042647, guid: a3c65cf88a60d9e479c989da39095c36, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
