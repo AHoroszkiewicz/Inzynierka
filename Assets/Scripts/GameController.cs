@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
+using System.Collections;
 
 public class GameController : MonoBehaviour
 {
@@ -7,14 +9,19 @@ public class GameController : MonoBehaviour
     [SerializeField] private HPManager enemyHPManager;
     [SerializeField] private EndGamePanel endGamePanel;
     [SerializeField] private CardManager cardManager;
+    [SerializeField] private int cardsOnSubtraction = 2;
+    [SerializeField] private int shieldOnDivision = 10;
+    [SerializeField] private int cardsOnPower = 1;
 
     private int turnCounter = 0;
     private bool isPlayerTurn = true;
     private bool isGameOver = false;
     private GameModeSO currentGameMode;
+    private Queue<ICardEffect> effectQueue = new Queue<ICardEffect>();
 
     public static GameController Instance;
     public GameModeSO CurrentGameMode => Instance.currentGameMode;
+    public CardManager CardManager => Instance.cardManager;
 
     private void Awake()
     {
@@ -33,12 +40,14 @@ public class GameController : MonoBehaviour
     {
         playerHPManager = hpManager;
         playerHPManager.SetHP(currentGameMode.playerHP);
+        playerHPManager.SetShield(currentGameMode.playerShield);
     }
 
     public void RegisterEnemyHP(HPManager hpManager)
     {
         enemyHPManager = hpManager;
         enemyHPManager.SetHP(currentGameMode.enemyHP);
+        enemyHPManager.SetShield(currentGameMode.enemyShield);
     }
 
     public void RegisterEndGamePanel(EndGamePanel panel)
@@ -65,6 +74,7 @@ public class GameController : MonoBehaviour
             cardManager.ClearHand();
             cardManager.DrawCards();
             DealDMG(damage);
+            StartCoroutine(ProcessEffects());
         }        
         isPlayerTurn = !isPlayerTurn;
         if (enemyHPManager.HealthPoints <= 0)
@@ -92,9 +102,40 @@ public class GameController : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
-    internal void SetGameMode(GameModeSO mode)
+    public void SetGameMode(GameModeSO mode)
     {
         currentGameMode = mode;
         StartGame();
+    }
+
+    public void AddCardEffect(Card card)
+    {
+        switch (card.Type)
+        {
+            case CardType.Subtraction:
+                effectQueue.Enqueue(new DrawCardsEffect(cardsOnSubtraction));
+                break;
+            case CardType.Division:
+                effectQueue.Enqueue(new AddShieldEffect(shieldOnDivision));
+                break;
+            case CardType.Power:
+                effectQueue.Enqueue(new DrawCardsEffect(cardsOnPower));
+                break;
+        }
+    }
+
+    private IEnumerator ProcessEffects()
+    {
+        while (effectQueue.Count > 0)
+        {
+            ICardEffect effect = effectQueue.Dequeue();
+            yield return StartCoroutine(effect.Execute(this));
+        }
+    }
+
+    public void AddPlayerShield(int value)
+    {
+        playerHPManager.AddShield(value);
+        Debug.Log("Added " + value + " shield to player.");
     }
 }

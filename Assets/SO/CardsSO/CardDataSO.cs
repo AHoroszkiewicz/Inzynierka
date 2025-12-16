@@ -4,8 +4,13 @@ public enum CardType
 {
     None = 0,
     Number = 1,
-    Operator = 2,
-    Parenthesis = 3
+    Addition = 2,
+    Subtraction = 3,
+    Multiplication = 4,
+    Division = 5,
+    Power = 6,
+    SquareRoot = 7,
+    parenthesis = 8,
 }
 
 [CreateAssetMenu(fileName = "CardData", menuName = "Scriptable Objects/CardData")]

@@ -5,5 +5,7 @@ public class GameModeSO : ScriptableObject
 {
     public string modeName;
     public float playerHP;
+    public float playerShield;
     public float enemyHP;
+    public float enemyShield;
 }

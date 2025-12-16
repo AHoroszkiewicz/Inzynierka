@@ -6,8 +6,6 @@ using UnityEngine.EventSystems;
 public class EquationManager : MonoBehaviour, IDropHandler
 {
     [SerializeField] private TextMeshProUGUI equationText;
-    [SerializeField] private HPManager enemy;
-    [SerializeField] private CardManager cardManager;
     
     private GameController gameController => GameController.Instance;
     private string equation;
@@ -44,7 +42,7 @@ public class EquationManager : MonoBehaviour, IDropHandler
     {
         equation = "";
         result = 0;
-        equationText.text = "";
+        equationText.text = equation + " = " + result.ToString();
     }
 
     public void OnDrop(PointerEventData eventData)
@@ -54,10 +52,6 @@ public class EquationManager : MonoBehaviour, IDropHandler
 
     public void DealDMG()
     {
-        //enemy.TakeDamage((float)result);
-        //Debug.Log("Dealing " + result + " damage!");
-        //cardManager.ClearHand();
-        //cardManager.DrawCards();
         gameController.EndTurn((float)result);
         ClearEquation();
     }

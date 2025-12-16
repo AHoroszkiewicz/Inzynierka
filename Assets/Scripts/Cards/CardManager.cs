@@ -25,9 +25,9 @@ public class CardManager : MonoBehaviour
         DrawCards(); // Dobieramy karty na start
     }
 
-    public void DrawCards()
+    public void DrawCards(int numberOfCards)
     {
-        for (int i = 0; i < cardNumber; i++)
+        for (int i = 0; i < numberOfCards; i++)
         {
             CardDataSO randomCard = cardDataList[UnityEngine.Random.Range(0, cardDataList.Count)];
             GameObject newCardObj = Instantiate(cardPrefab, cardParent);
@@ -35,6 +35,11 @@ public class CardManager : MonoBehaviour
             newCard.Initialize(randomCard, this, cardDragParent, canvas);
             currentHand.Add(newCard);
         }
+    }
+
+    public void DrawCards()
+    {
+        DrawCards(cardNumber);
     }
 
     public void ClearHand()
@@ -46,9 +51,10 @@ public class CardManager : MonoBehaviour
         currentHand.Clear();
     }
 
-    public void AddToExpression(Card card)
+    public void UseCard(Card card)
     {
         equationManager.AddToEquation(card.Value);
+        GameController.Instance.AddCardEffect(card);
     }
 
     public void EvaluateExpression()
