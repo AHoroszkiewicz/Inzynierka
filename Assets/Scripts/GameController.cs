@@ -33,12 +33,14 @@ public class GameController : MonoBehaviour
     {
         playerHPManager = hpManager;
         playerHPManager.SetHP(currentGameMode.playerHP);
+        playerHPManager.SetShield(currentGameMode.playerShield);
     }
 
     public void RegisterEnemyHP(HPManager hpManager)
     {
         enemyHPManager = hpManager;
         enemyHPManager.SetHP(currentGameMode.enemyHP);
+        enemyHPManager.SetShield(currentGameMode.enemyShield);
     }
 
     public void RegisterEndGamePanel(EndGamePanel panel)
