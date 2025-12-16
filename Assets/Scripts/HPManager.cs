@@ -18,7 +18,7 @@ public class HPManager : MonoBehaviour
 
     private void Start()
     {
-        SetTextValues();
+        UpdateTextValues();
     }
 
     public void TakeDamage(float damage)
@@ -31,20 +31,34 @@ public class HPManager : MonoBehaviour
         }
         healthPoints -= damage;
         if (healthPoints < 0) healthPoints = 0;
-        SetTextValues();
+        UpdateTextValues();
     }
 
     public void SetHP(float value)
     {
         healthPoints = value;
+        UpdateTextValues();
+    }
+
+    public void AddHP(float value)
+    {
+        healthPoints += value;
+        UpdateTextValues();
     }
 
     public void SetShield(float value)
     {
         shieldPoints = value;
+        UpdateTextValues();
     }
 
-    private void SetTextValues()
+    public void AddShield(float value)
+    {
+        shieldPoints += value;
+        UpdateTextValues();
+    }
+
+    private void UpdateTextValues()
     {
         hp.text = healthPoints.ToString("F0");
         shield.text = shieldPoints.ToString("F0");

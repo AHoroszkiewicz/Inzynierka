@@ -13,8 +13,10 @@ public class Card : MonoBehaviour
     private string value;
     private CardManager cardManager;
     private DraggableItem draggableItem;
+    private CardType type;
 
     public string Value => value;
+    public CardType Type => type;
 
     private void Update()
     {
@@ -33,6 +35,7 @@ public class Card : MonoBehaviour
         cardImage.sprite = sprite;
         value = cardData.value;
         text.text = value;
+        type = cardData.type;
         if ( draggableItem == null)
             draggableItem = GetComponent<DraggableItem>();
         if (dragParent != null && draggableItem != null && dragCanvas != null)
@@ -44,7 +47,7 @@ public class Card : MonoBehaviour
 
     public void OnClick()
     {
-        cardManager.AddToExpression(this);
+        cardManager.UseCard(this);
         gameObject.SetActive(false);
     }
 }
