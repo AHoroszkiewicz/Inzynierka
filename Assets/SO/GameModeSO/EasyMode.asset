@@ -14,4 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameModeSO
   modeName: Easy
   playerHP: 200
+  playerShield: 100
   enemyHP: 50
+  enemyShield: 10

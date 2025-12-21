@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c811770913d87ee4f915ccaa1999b364, type: 3}
   m_Name: BracketsSO
   m_EditorClassIdentifier: 
-  type: 3
+  type: 8
   sprite: {fileID: 21300000, guid: 073ca8e76b2dc6a449d6afc25bc94bdd, type: 3}
   value: ()

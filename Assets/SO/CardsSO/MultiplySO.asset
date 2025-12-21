@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c811770913d87ee4f915ccaa1999b364, type: 3}
   m_Name: MultiplySO
   m_EditorClassIdentifier: 
-  type: 2
+  type: 4
   sprite: {fileID: 21300000, guid: ee861c770b13bf14093edd57eedab7c6, type: 3}
   value: '*'
