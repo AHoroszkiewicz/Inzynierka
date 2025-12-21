@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c811770913d87ee4f915ccaa1999b364, type: 3}
   m_Name: DivideSO
   m_EditorClassIdentifier: 
-  type: 2
+  type: 5
   sprite: {fileID: 21300000, guid: 35451133d758703498685b3ed2b16d71, type: 3}
   value: /
