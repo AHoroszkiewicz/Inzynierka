@@ -36,7 +36,7 @@ public class MainMenuController : MonoBehaviour
     {
         if (currentPanel == titlePanel)
         {
-            if (Input.anyKeyDown || Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2))
+            if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2))
             {
                 OpenMenuPanel();
             }
