@@ -67,15 +67,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0 = 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 52a606c0cf15d674c8fd0b0e8ceb1934, type: 2}
+  m_sharedMaterial: {fileID: -2763017553384203352, guid: 52a606c0cf15d674c8fd0b0e8ceb1934, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4279053119
+  m_fontColor: {r: 0.24705882, g: 0.16862746, b: 0.050980393, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -187,6 +187,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   equationText: {fileID: 8826375460462789326}
-  enemy: {fileID: 0}
-  cardManager: {fileID: 0}
-  turnManager: {fileID: 0}

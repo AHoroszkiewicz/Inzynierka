@@ -36,6 +36,14 @@ public class GameController : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (isGameOver && Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2))
+        { 
+            EndGame();
+        }
+    }
+
     public void RegisterPlayerHP(HPManager hpManager)
     {
         playerHPManager = hpManager;
@@ -100,6 +108,13 @@ public class GameController : MonoBehaviour
     public void StartGame()
     {
         SceneManager.LoadScene(1);
+    }
+
+    public void EndGame()
+    {
+        isPlayerTurn = true;
+        isGameOver = false;
+        SceneManager.LoadScene(0);
     }
 
     public void SetGameMode(GameModeSO mode)
