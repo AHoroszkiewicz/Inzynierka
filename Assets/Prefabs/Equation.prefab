@@ -67,8 +67,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0 = 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 52a606c0cf15d674c8fd0b0e8ceb1934, type: 2}
+  m_sharedMaterial: {fileID: -2763017553384203352, guid: 52a606c0cf15d674c8fd0b0e8ceb1934, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -187,6 +187,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   equationText: {fileID: 8826375460462789326}
-  enemy: {fileID: 0}
-  cardManager: {fileID: 0}
-  turnManager: {fileID: 0}
