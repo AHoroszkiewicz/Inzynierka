@@ -63,7 +63,7 @@ public class UIPanel : MonoBehaviour
                 transform.position = new Vector3(Screen.width / 2, Screen.height / 2, transform.position.z);
                 transform.DOScale(Vector3.one, inAnimation.duration).onComplete = SelectFirstButton;
                 break;
-        }       
+        }   
     }
 
     public void CloseThisPanel()
@@ -103,6 +103,10 @@ public class UIPanel : MonoBehaviour
             selectedButtonId = 0;
             selectedButton.Select();
         }      
+        foreach (var btn in buttons)
+        {
+            btn.Button.interactable = true;
+        }
     }
 
     public void ForceDeatcivate()
@@ -112,6 +116,10 @@ public class UIPanel : MonoBehaviour
         canvasGroup.alpha = 0;
         canvasGroup.blocksRaycasts = false;
         canvasGroup.interactable = false;
+        foreach (var btn in buttons)
+        {
+            btn.Button.interactable = false;
+        }
     }
 
     public void Submit()

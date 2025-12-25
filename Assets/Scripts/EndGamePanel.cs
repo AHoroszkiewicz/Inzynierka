@@ -9,7 +9,7 @@ public class EndGamePanel : MonoBehaviour
 
     private void Awake()
     {
-        GameController.Instance.RegisterEndGamePanel(this);
+        GameManager.Instance.RegisterEndGamePanel(this);
     }
 
     public void ShowEndGamePanel(bool playerWon)

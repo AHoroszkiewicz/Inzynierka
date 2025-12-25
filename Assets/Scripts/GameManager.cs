@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using System.Collections;
 
-public class GameController : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
     [SerializeField] private HPManager playerHPManager;
     [SerializeField] private HPManager enemyHPManager;
@@ -12,6 +12,7 @@ public class GameController : MonoBehaviour
     [SerializeField] private int cardsOnSubtraction = 2;
     [SerializeField] private int shieldOnDivision = 10;
     [SerializeField] private int cardsOnPower = 1;
+    [SerializeField] private SoundManager soundManager;
 
     private int turnCounter = 0;
     private bool isPlayerTurn = true;
@@ -19,9 +20,10 @@ public class GameController : MonoBehaviour
     private GameModeSO currentGameMode;
     private Queue<ICardEffect> effectQueue = new Queue<ICardEffect>();
 
-    public static GameController Instance;
+    public static GameManager Instance;
     public GameModeSO CurrentGameMode => Instance.currentGameMode;
     public CardManager CardManager => Instance.cardManager;
+    public SoundManager SoundManager => Instance.soundManager;
 
     private void Awake()
     {

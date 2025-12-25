@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: aa1561c52622e9846944172c5f972cd0
+guid: 218955a6d315dee48930d1ea54d684bf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2128071877184378236
-    second: dzielenie_0
-  - first:
-      213: -8877525687512063569
-    second: dzielenie_1
-  - first:
-      213: -2806612163458221702
-    second: dzielenie_2
+      213: 4113829005332862926
+    second: 9_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -106,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dzielenie_0
+      name: 9_0
       rect:
         serializedVersion: 2
-        x: 1142
-        y: 972
-        width: 170
-        height: 173
+        x: 179
+        y: 152
+        width: 154
+        height: 208
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,52 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48a2de717e19772e0800000000000000
-      internalID: -2128071877184378236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dzielenie_1
-      rect:
-        serializedVersion: 2
-        x: 985
-        y: 801
-        width: 484
-        height: 143
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fa1207f1c61bcc480800000000000000
-      internalID: -8877525687512063569
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dzielenie_2
-      rect:
-        serializedVersion: 2
-        x: 1142
-        y: 610
-        width: 170
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a7938ce7b19ec09d0800000000000000
-      internalID: -2806612163458221702
+      spriteID: ec750913fa1471930800000000000000
+      internalID: 4113829005332862926
       vertices: []
       indices: 
       edges: []
@@ -175,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dzielenie_0: -2128071877184378236
-      dzielenie_1: -8877525687512063569
-      dzielenie_2: -2806612163458221702
+      9_0: 4113829005332862926
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

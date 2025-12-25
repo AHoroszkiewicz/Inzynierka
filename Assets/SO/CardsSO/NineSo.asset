@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: NineSo
   m_EditorClassIdentifier: 
   type: 1
-  sprite: {fileID: 21300000, guid: 64d661e28b2a05340b3584e6634dd6ed, type: 3}
+  sprite: {fileID: 21300000, guid: 218955a6d315dee48930d1ea54d684bf, type: 3}
   value: 9

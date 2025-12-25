@@ -1,37 +1,37 @@
 fileFormatVersion: 2
-guid: e611027c15057874c8109796560cb452
+guid: 329311d945883104b8d27af42ff46eb2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4528754193124076378
-    second: tarcze_0
+      213: -1156660499348995260
+    second: tarcze 512_0
   - first:
-      213: -1063024396277652562
-    second: tarcze_1
+      213: -3141567249116118875
+    second: tarcze 512_1
   - first:
-      213: 4376093381001616073
-    second: tarcze_2
+      213: -1747212036684735191
+    second: tarcze 512_2
   - first:
-      213: 1581652841800002576
-    second: tarcze_3
+      213: -2672011312369662838
+    second: tarcze 512_3
   - first:
-      213: 5178873299591138606
-    second: tarcze_4
+      213: -263944741471960596
+    second: tarcze 512_4
   - first:
-      213: -29825786160718302
-    second: tarcze_5
+      213: 6310111278711120751
+    second: tarcze 512_5
   - first:
-      213: -6113494382975982323
-    second: tarcze_6
+      213: 328961247693484942
+    second: tarcze 512_6
   - first:
-      213: 5673236715765608064
-    second: tarcze_7
+      213: 5950896651515379442
+    second: tarcze 512_7
   - first:
-      213: -7340626986072594210
-    second: tarcze_8
+      213: -5165356898784392168
+    second: tarcze 512_8
   - first:
-      213: 6602924998137355863
-    second: tarcze_9
+      213: 6663733053152390324
+    second: tarcze 512_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -73,7 +73,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -127,13 +127,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tarcze_0
+      name: tarcze 512_0
       rect:
         serializedVersion: 2
-        x: 905
-        y: 1017
-        width: 86
-        height: 96
+        x: 91
+        y: 398
+        width: 74
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5ba83cb1fd59de30800000000000000
-      internalID: 4528754193124076378
+      spriteID: 443c3927767b2ffe0800000000000000
+      internalID: -1156660499348995260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tarcze_1
+      name: tarcze 512_1
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 1019
-        width: 86
-        height: 96
+        x: 224
+        y: 399
+        width: 74
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ea3eb4891f06f31f0800000000000000
-      internalID: -1063024396277652562
+      spriteID: 5a0ce6e4b39e664d0800000000000000
+      internalID: -3141567249116118875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tarcze_2
+      name: tarcze 512_2
       rect:
         serializedVersion: 2
-        x: 1202
-        y: 1013
-        width: 86
-        height: 96
+        x: 341
+        y: 394
+        width: 73
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ca1a869eb10bbc30800000000000000
-      internalID: 4376093381001616073
+      spriteID: 92d9e16e8e7a0c7e0800000000000000
+      internalID: -1747212036684735191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tarcze_3
+      name: tarcze 512_3
       rect:
         serializedVersion: 2
-        x: 989
-        y: 868
-        width: 86
-        height: 96
+        x: 162
+        y: 272
+        width: 73
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01ce97131e823f510800000000000000
-      internalID: 1581652841800002576
+      spriteID: a84816a4edb1bead0800000000000000
+      internalID: -2672011312369662838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tarcze_4
+      name: tarcze 512_4
       rect:
         serializedVersion: 2
-        x: 1140
-        y: 864
-        width: 86
-        height: 96
+        x: 289
+        y: 269
+        width: 73
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,20 +230,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e2d82eeb3dd0fd740800000000000000
-      internalID: 5178873299591138606
+      spriteID: ce14b34f7a7465cf0800000000000000
+      internalID: -263944741471960596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tarcze_5
+      name: tarcze 512_5
       rect:
         serializedVersion: 2
-        x: 904
-        y: 736
-        width: 86
-        height: 96
+        x: 91
+        y: 161
+        width: 73
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,20 +252,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22e5eb20b99069ff0800000000000000
-      internalID: -29825786160718302
+      spriteID: f6323cc86c4029750800000000000000
+      internalID: 6310111278711120751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tarcze_6
+      name: tarcze 512_6
       rect:
         serializedVersion: 2
-        x: 1064
-        y: 734
-        width: 86
-        height: 96
+        x: 225
+        y: 160
+        width: 73
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,20 +274,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d05ee56df31882ba0800000000000000
-      internalID: -6113494382975982323
+      spriteID: e83b3a90384b09400800000000000000
+      internalID: 328961247693484942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tarcze_7
+      name: tarcze 512_7
       rect:
         serializedVersion: 2
-        x: 1208
-        y: 734
-        width: 86
-        height: 96
+        x: 346
+        y: 160
+        width: 74
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,20 +296,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 08ea9e12cb26bbe40800000000000000
-      internalID: 5673236715765608064
+      spriteID: 2feb2a0b9f4d59250800000000000000
+      internalID: 5950896651515379442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tarcze_8
+      name: tarcze 512_8
       rect:
         serializedVersion: 2
-        x: 980
-        y: 581
-        width: 86
-        height: 96
+        x: 154
+        y: 31
+        width: 74
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,20 +318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed82f7206aad02a90800000000000000
-      internalID: -7340626986072594210
+      spriteID: 81cc7dd8447f058b0800000000000000
+      internalID: -5165356898784392168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tarcze_9
+      name: tarcze 512_9
       rect:
         serializedVersion: 2
-        x: 1132
-        y: 585
-        width: 86
-        height: 96
+        x: 282
+        y: 34
+        width: 74
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,8 +340,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75e16805d4d42ab50800000000000000
-      internalID: 6602924998137355863
+      spriteID: 4bc6d27e7e55a7c50800000000000000
+      internalID: 6663733053152390324
       vertices: []
       indices: 
       edges: []
@@ -350,7 +350,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -360,16 +360,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tarcze_0: 4528754193124076378
-      tarcze_1: -1063024396277652562
-      tarcze_2: 4376093381001616073
-      tarcze_3: 1581652841800002576
-      tarcze_4: 5178873299591138606
-      tarcze_5: -29825786160718302
-      tarcze_6: -6113494382975982323
-      tarcze_7: 5673236715765608064
-      tarcze_8: -7340626986072594210
-      tarcze_9: 6602924998137355863
+      tarcze 512_0: -1156660499348995260
+      tarcze 512_1: -3141567249116118875
+      tarcze 512_2: -1747212036684735191
+      tarcze 512_3: -2672011312369662838
+      tarcze 512_4: -263944741471960596
+      tarcze 512_5: 6310111278711120751
+      tarcze 512_6: 328961247693484942
+      tarcze 512_7: 5950896651515379442
+      tarcze 512_8: -5165356898784392168
+      tarcze 512_9: 6663733053152390324
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

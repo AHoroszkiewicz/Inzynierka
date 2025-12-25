@@ -13,7 +13,7 @@ public class MainMenuController : MonoBehaviour
     private List<UIPanel> uIPanels = new List<UIPanel>();
     private UIPanel currentPanel;
     private Stack<UIPanel> panelStack = new Stack<UIPanel>();
-    private GameController gameController => GameController.Instance;
+    private GameManager gameController => GameManager.Instance;
 
     private void Awake()
     {
