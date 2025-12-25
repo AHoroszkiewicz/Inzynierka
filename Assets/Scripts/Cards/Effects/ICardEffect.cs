@@ -3,5 +3,5 @@ using System.Collections;
 
 public interface ICardEffect
 {
-    IEnumerator Execute(GameController gameController);
+    IEnumerator Execute(GameManager gameController);
 }

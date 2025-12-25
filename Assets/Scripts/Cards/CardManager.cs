@@ -17,7 +17,7 @@ public class CardManager : MonoBehaviour
 
     private void Awake()
     {
-        GameController.Instance.RegisterCardManager(this);
+        GameManager.Instance.RegisterCardManager(this);
     }
 
     private void Start()
@@ -54,7 +54,7 @@ public class CardManager : MonoBehaviour
     public void UseCard(Card card)
     {
         equationManager.AddToEquation(card.Value);
-        GameController.Instance.AddCardEffect(card);
+        GameManager.Instance.AddCardEffect(card);
     }
 
     public void EvaluateExpression()

@@ -10,7 +10,7 @@ public class DrawCardsEffect : ICardEffect
         this.numberOfCards = numberOfCards;
     }
 
-    public IEnumerator Execute(GameController gameController)
+    public IEnumerator Execute(GameManager gameController)
     {
         gameController.CardManager.DrawCards(numberOfCards);
         yield return null;

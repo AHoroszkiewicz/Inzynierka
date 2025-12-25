@@ -26,7 +26,7 @@ public class GamePanel : UIPanel
 
             uiButton.Button.onClick.AddListener(() =>
             {
-                GameController.Instance.SetGameMode(mode);
+                GameManager.Instance.SetGameMode(mode);
             });
         }
     }

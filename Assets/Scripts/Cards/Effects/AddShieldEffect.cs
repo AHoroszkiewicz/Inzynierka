@@ -10,7 +10,7 @@ public class AddShieldEffect : ICardEffect
         this.value = value;
     }
 
-    public IEnumerator Execute(GameController gameController)
+    public IEnumerator Execute(GameManager gameController)
     {
         gameController.AddPlayerShield(value);
         yield return null;

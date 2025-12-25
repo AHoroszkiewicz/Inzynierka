@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Wci\u015Bnij przycisk myszy"
+  m_text: "Wci\u015Bnij lewy przycisk myszy"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 52a606c0cf15d674c8fd0b0e8ceb1934, type: 2}
   m_sharedMaterial: {fileID: -2763017553384203352, guid: 52a606c0cf15d674c8fd0b0e8ceb1934, type: 2}

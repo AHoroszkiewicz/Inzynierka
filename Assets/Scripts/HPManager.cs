@@ -68,11 +68,11 @@ public class HPManager : MonoBehaviour
     {
         if (isPlayer)
         {
-            GameController.Instance.RegisterPlayerHP(this);
+            GameManager.Instance.RegisterPlayerHP(this);
         }
         else
         {
-            GameController.Instance.RegisterEnemyHP(this);
+            GameManager.Instance.RegisterEnemyHP(this);
         }
     }
 }

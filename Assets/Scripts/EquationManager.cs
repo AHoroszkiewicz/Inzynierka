@@ -7,7 +7,7 @@ public class EquationManager : MonoBehaviour, IDropHandler
 {
     [SerializeField] private TextMeshProUGUI equationText;
     
-    private GameController gameController => GameController.Instance;
+    private GameManager gameController => GameManager.Instance;
     private string equation;
     private double result;
 

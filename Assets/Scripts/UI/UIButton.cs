@@ -43,4 +43,9 @@ public class UIButton : MonoBehaviour, ISelectHandler, IPointerEnterHandler
             textComponent.text = label;
         }
     }
+
+    public void PlayClickSound()
+    {
+        GameManager.Instance.SoundManager.PlaySound(SoundType.ButtonClick);
+    }
 }
