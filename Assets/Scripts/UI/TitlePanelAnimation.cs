@@ -20,6 +20,7 @@ public class TitlePanelAnimation : MonoBehaviour
         var mainSeq = DOTween.Sequence();
 
         mainSeq.Append(leftPencil.DOLocalMove(pencilEndPos, animationDuration).SetEase(Ease.OutBack));
+        pencilEndPos.x = -pencilEndPos.x;
         mainSeq.Join(rightPencil.DOLocalMove(pencilEndPos, animationDuration).SetEase(Ease.OutBack));
 
         if (explosion != null && explosion.Length > 0)
