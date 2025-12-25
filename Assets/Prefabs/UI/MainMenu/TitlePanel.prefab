@@ -149,6 +149,7 @@ GameObject:
   - component: {fileID: 5679384288093163574}
   - component: {fileID: 6922760276448363520}
   - component: {fileID: 3440156594610520042}
+  - component: {fileID: 2355943573539847176}
   m_Layer: 5
   m_Name: TitlePanel
   m_TagString: Untagged
@@ -218,6 +219,18 @@ MonoBehaviour:
     duration: 1
   buttons: []
   canvasGroup: {fileID: 6922760276448363520}
+--- !u!114 &2355943573539847176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8867486521695768366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 621f8d09df66daa4787568c4bb52203b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TitlePanelAnimation
 --- !u!1 &9187449858229940988
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: ZeroSO
   m_EditorClassIdentifier: 
   type: 1
-  sprite: {fileID: 21300000, guid: 3c719c31df24da14fa7a142c5ae27091, type: 3}
+  sprite: {fileID: 21300000, guid: fbc230f070013184ca44fceb61e3b901, type: 3}
   value: 0

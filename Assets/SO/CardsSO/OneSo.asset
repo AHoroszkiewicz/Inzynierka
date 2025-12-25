@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: OneSo
   m_EditorClassIdentifier: 
   type: 1
-  sprite: {fileID: 21300000, guid: 9bd6cdfc194c1694fa5bb193ee2eff95, type: 3}
+  sprite: {fileID: 21300000, guid: 4daa7f0caa89d754b8d2f0adffef1623, type: 3}
   value: 1

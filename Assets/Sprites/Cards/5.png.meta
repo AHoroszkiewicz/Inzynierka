@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4ad5097ad2b330646b13dd696f157508
+guid: c9921c6a2fe7f2b4885dec1715055230
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8721970213438473011
-    second: "karta - dzia\u0142anie_0"
+      213: 4130640169021434097
+    second: 5_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "karta - dzia\u0142anie_0"
+      name: 5_0
       rect:
         serializedVersion: 2
-        x: 364
-        y: 67
-        width: 536
-        height: 714
+        x: 178
+        y: 153
+        width: 155
+        height: 207
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 333c989b2b9aa0970800000000000000
-      internalID: 8721970213438473011
+      spriteID: 1f86b71495bf25930800000000000000
+      internalID: 4130640169021434097
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "karta - dzia\u0142anie_0": 8721970213438473011
+      5_0: 4130640169021434097
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

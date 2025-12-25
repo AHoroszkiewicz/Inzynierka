@@ -1,46 +1,46 @@
 fileFormatVersion: 2
-guid: 6ebb80cdb6cb69d4d8e0115aedb0dd5f
+guid: 2ffc3bf9e69e0224881ad3473af9fd44
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -408895517672276564
-    second: plusiki_0
+      213: 6610846177723408018
+    second: plusiki 512_0
   - first:
-      213: -3782519665182942383
-    second: plusiki_1
+      213: -3418282948650648847
+    second: plusiki 512_1
   - first:
-      213: -7247102931384506894
-    second: plusiki_2
+      213: -5595157420947057400
+    second: plusiki 512_2
   - first:
-      213: 6525608221407400562
-    second: plusiki_3
+      213: 233142992104729202
+    second: plusiki 512_3
   - first:
-      213: 2899083995038982772
-    second: plusiki_4
+      213: 6129644367968604236
+    second: plusiki 512_4
   - first:
-      213: 6747787853409051999
-    second: plusiki_5
+      213: 3777901840925653498
+    second: plusiki 512_5
   - first:
-      213: 8734038860923118162
-    second: plusiki_6
+      213: 158336141632310604
+    second: plusiki 512_6
   - first:
-      213: -4881674552239462603
-    second: plusiki_7
+      213: 4347325529260253644
+    second: plusiki 512_7
   - first:
-      213: -7545351400378848515
-    second: plusiki_8
+      213: -3514001982390317763
+    second: plusiki 512_8
   - first:
-      213: 2955155706378446548
-    second: plusiki_9
+      213: 2922265664808690687
+    second: plusiki 512_9
   - first:
-      213: 4792693398832029706
-    second: plusiki_10
+      213: -3974730597168963352
+    second: plusiki 512_10
   - first:
-      213: 8499794588892342594
-    second: plusiki_11
+      213: 6981407851033427362
+    second: plusiki 512_11
   - first:
-      213: -6275277625265608119
-    second: plusiki_12
+      213: 1889463448841499589
+    second: plusiki 512_12
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -82,7 +82,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -136,13 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: plusiki_0
+      name: plusiki 512_0
       rect:
         serializedVersion: 2
-        x: 908
-        y: 1016
-        width: 76
-        height: 76
+        x: 106
+        y: 407
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cadf4ee61bf435af0800000000000000
-      internalID: -408895517672276564
+      spriteID: 29ed3f7a2917ebb50800000000000000
+      internalID: 6610846177723408018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plusiki_1
+      name: plusiki 512_1
       rect:
         serializedVersion: 2
-        x: 1068
-        y: 1014
-        width: 76
-        height: 76
+        x: 235
+        y: 406
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 15b57d8b76ac18bc0800000000000000
-      internalID: -3782519665182942383
+      spriteID: 1fa37efd4c1df80d0800000000000000
+      internalID: -3418282948650648847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plusiki_2
+      name: plusiki 512_2
       rect:
         serializedVersion: 2
-        x: 1203
-        y: 1018
-        width: 76
-        height: 76
+        x: 343
+        y: 409
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f5622cd74e1d6b90800000000000000
-      internalID: -7247102931384506894
+      spriteID: 8055f0658f10a52b0800000000000000
+      internalID: -5595157420947057400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plusiki_3
+      name: plusiki 512_3
       rect:
         serializedVersion: 2
-        x: 966
-        y: 919
-        width: 76
-        height: 76
+        x: 153
+        y: 330
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,20 +217,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2725b5c6a1e9f8a50800000000000000
-      internalID: 6525608221407400562
+      spriteID: 27a264ae05a4c3300800000000000000
+      internalID: 233142992104729202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plusiki_4
+      name: plusiki 512_4
       rect:
         serializedVersion: 2
-        x: 1158
-        y: 916
-        width: 76
-        height: 76
+        x: 307
+        y: 327
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +239,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 472a152988d9b3820800000000000000
-      internalID: 2899083995038982772
+      spriteID: c401e30931fd01550800000000000000
+      internalID: 6129644367968604236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plusiki_5
+      name: plusiki 512_5
       rect:
         serializedVersion: 2
-        x: 892
-        y: 814
-        width: 76
-        height: 76
+        x: 94
+        y: 245
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,20 +261,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f5564262d45f4ad50800000000000000
-      internalID: 6747787853409051999
+      spriteID: af9faa845bdcd6430800000000000000
+      internalID: 3777901840925653498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plusiki_6
+      name: plusiki 512_6
       rect:
         serializedVersion: 2
-        x: 1059
-        y: 810
-        width: 76
-        height: 76
+        x: 227
+        y: 242
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 252a7cfa11a853970800000000000000
-      internalID: 8734038860923118162
+      spriteID: c4d8915c1e5823200800000000000000
+      internalID: 158336141632310604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plusiki_7
+      name: plusiki 512_7
       rect:
         serializedVersion: 2
-        x: 1219
-        y: 810
-        width: 76
-        height: 76
+        x: 356
+        y: 242
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 537e3b4ebdec04cb0800000000000000
-      internalID: -4881674552239462603
+      spriteID: cc16b86298dc45c30800000000000000
+      internalID: 4347325529260253644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plusiki_8
+      name: plusiki 512_8
       rect:
         serializedVersion: 2
-        x: 985
-        y: 709
-        width: 76
-        height: 76
+        x: 168
+        y: 161
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +327,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dfa2cead0e6894790800000000000000
-      internalID: -7545351400378848515
+      spriteID: d3d4b93a0d1cb3fc0800000000000000
+      internalID: -3514001982390317763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plusiki_9
+      name: plusiki 512_9
       rect:
         serializedVersion: 2
-        x: 1125
-        y: 711
-        width: 76
-        height: 76
+        x: 280
+        y: 163
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d6e7a63572d20920800000000000000
-      internalID: 2955155706378446548
+      spriteID: ff32e3aa329fd8820800000000000000
+      internalID: 2922265664808690687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plusiki_10
+      name: plusiki 512_10
       rect:
         serializedVersion: 2
-        x: 911
-        y: 623
-        width: 76
-        height: 76
+        x: 109
+        y: 92
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a002eb2e041138240800000000000000
-      internalID: 4792693398832029706
+      spriteID: 8e02ed5b49be6d8c0800000000000000
+      internalID: -3974730597168963352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plusiki_11
+      name: plusiki 512_11
       rect:
         serializedVersion: 2
-        x: 1062
-        y: 559
-        width: 76
-        height: 76
+        x: 230
+        y: 41
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +393,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24927be052655f570800000000000000
-      internalID: 8499794588892342594
+      spriteID: 2ad78f09371f2e060800000000000000
+      internalID: 6981407851033427362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plusiki_12
+      name: plusiki 512_12
       rect:
         serializedVersion: 2
-        x: 1199
-        y: 619
-        width: 76
-        height: 76
+        x: 340
+        y: 89
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,8 +415,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 94a26176f3cb9e8a0800000000000000
-      internalID: -6275277625265608119
+      spriteID: 5c33844fef8b83a10800000000000000
+      internalID: 1889463448841499589
       vertices: []
       indices: 
       edges: []
@@ -425,7 +425,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -435,19 +435,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      plusiki_0: -408895517672276564
-      plusiki_1: -3782519665182942383
-      plusiki_10: 4792693398832029706
-      plusiki_11: 8499794588892342594
-      plusiki_12: -6275277625265608119
-      plusiki_2: -7247102931384506894
-      plusiki_3: 6525608221407400562
-      plusiki_4: 2899083995038982772
-      plusiki_5: 6747787853409051999
-      plusiki_6: 8734038860923118162
-      plusiki_7: -4881674552239462603
-      plusiki_8: -7545351400378848515
-      plusiki_9: 2955155706378446548
+      plusiki 512_0: 6610846177723408018
+      plusiki 512_1: -3418282948650648847
+      plusiki 512_10: -3974730597168963352
+      plusiki 512_11: 6981407851033427362
+      plusiki 512_12: 1889463448841499589
+      plusiki 512_2: -5595157420947057400
+      plusiki 512_3: 233142992104729202
+      plusiki 512_4: 6129644367968604236
+      plusiki 512_5: 3777901840925653498
+      plusiki 512_6: 158336141632310604
+      plusiki 512_7: 4347325529260253644
+      plusiki 512_8: -3514001982390317763
+      plusiki 512_9: 2922265664808690687
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

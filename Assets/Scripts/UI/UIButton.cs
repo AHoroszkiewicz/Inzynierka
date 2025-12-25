@@ -20,6 +20,11 @@ public class UIButton : MonoBehaviour, ISelectHandler, IPointerEnterHandler
 
     public void OnSelect(BaseEventData eventData)
     {
+        if (panel == null)
+        {
+            Debug.LogWarning("UIButton OnSelect called before initialization.");
+            return;
+        }
         panel.SelectedButtonId = buttonId;
         panel.SelectedButton = button;
     }
