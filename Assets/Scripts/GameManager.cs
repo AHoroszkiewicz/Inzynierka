@@ -127,17 +127,17 @@ public class GameManager : MonoBehaviour
 
     public void AddCardEffect(Card card)
     {
-        switch (card.Type)
+        switch (card.EffectType)
         {
-            case CardType.Subtraction:
-                effectQueue.Enqueue(new DrawCardsEffect(cardsOnSubtraction));
+            case CardEffectType.DrawCards:
+                effectQueue.Enqueue(new DrawCardsEffect(card.EffectValue));
                 break;
-            case CardType.Division:
-                effectQueue.Enqueue(new AddShieldEffect(shieldOnDivision));
+            case CardEffectType.AddShield:
+                effectQueue.Enqueue(new AddShieldEffect(card.EffectValue));
                 break;
-            case CardType.Power:
-                effectQueue.Enqueue(new DrawCardsEffect(cardsOnPower));
-                break;
+            //case CardEffectType.Heal:
+            //    effectQueue.Enqueue(new HealEffect(card.EffectValue));
+            //    break;
         }
     }
 
