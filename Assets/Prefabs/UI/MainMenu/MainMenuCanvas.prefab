@@ -487,9 +487,77 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 882175449974258558, guid: 8f6cb1d7ae5578c4cb904de6392d220c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 882175449974258558, guid: 8f6cb1d7ae5578c4cb904de6392d220c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 882175449974258558, guid: 8f6cb1d7ae5578c4cb904de6392d220c, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5023637555727142164, guid: 8f6cb1d7ae5578c4cb904de6392d220c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: UIPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6302189647439369495, guid: 8f6cb1d7ae5578c4cb904de6392d220c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6302189647439369495, guid: 8f6cb1d7ae5578c4cb904de6392d220c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6302189647439369495, guid: 8f6cb1d7ae5578c4cb904de6392d220c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6302189647439369495, guid: 8f6cb1d7ae5578c4cb904de6392d220c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7259262403972926198, guid: 8f6cb1d7ae5578c4cb904de6392d220c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7259262403972926198, guid: 8f6cb1d7ae5578c4cb904de6392d220c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7259262403972926198, guid: 8f6cb1d7ae5578c4cb904de6392d220c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7259262403972926198, guid: 8f6cb1d7ae5578c4cb904de6392d220c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597556898157312161, guid: 8f6cb1d7ae5578c4cb904de6392d220c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597556898157312161, guid: 8f6cb1d7ae5578c4cb904de6392d220c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7626621436382627578, guid: 8f6cb1d7ae5578c4cb904de6392d220c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7626621436382627578, guid: 8f6cb1d7ae5578c4cb904de6392d220c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7626621436382627578, guid: 8f6cb1d7ae5578c4cb904de6392d220c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7626621436382627578, guid: 8f6cb1d7ae5578c4cb904de6392d220c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -844,6 +912,26 @@ PrefabInstance:
     - target: {fileID: 3957348215060086673, guid: 41adbabcbe2299747abc58dd45413e3f, type: 3}
       propertyPath: m_Name
       value: GamePanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676847281099229797, guid: 41adbabcbe2299747abc58dd45413e3f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676847281099229797, guid: 41adbabcbe2299747abc58dd45413e3f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676847281099229797, guid: 41adbabcbe2299747abc58dd45413e3f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8031633433946992548}
+    - target: {fileID: 5676847281099229797, guid: 41adbabcbe2299747abc58dd45413e3f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676847281099229797, guid: 41adbabcbe2299747abc58dd45413e3f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UIButton, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

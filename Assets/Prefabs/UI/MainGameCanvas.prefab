@@ -308,7 +308,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Wci\u015Bnij dowolny przycisk by wr\xF3ci\u0107 do g\u0142\xF3wnego menu"
+  m_text: "Wci\u015Bnij lewy przycisk myszy by wr\xF3ci\u0107 do g\u0142\xF3wnego
+    menu"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 52a606c0cf15d674c8fd0b0e8ceb1934, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1536,39 +1537,31 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5567714811413405224, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
-      propertyPath: m_SpriteState.m_PressedSprite
-      value: 
-      objectReference: {fileID: -4069731324254459936, guid: 99344895ba3ef0c41ad253b58faa339d, type: 3}
-    - target: {fileID: 5567714811413405224, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
-      propertyPath: m_SpriteState.m_SelectedSprite
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5567714811413405224, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5567714811413405224, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5567714811413405224, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 7168020734289376455}
-    - target: {fileID: 5567714811413405224, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5567714811413405224, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5567714811413405224, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 7168020734289376455}
+    - target: {fileID: 5567714811413405224, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5567714811413405224, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: DealDMG
       objectReference: {fileID: 0}
     - target: {fileID: 5567714811413405224, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: EquationManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5567714811413405224, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6668800316260354381, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}

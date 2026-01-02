@@ -9,9 +9,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] private HPManager enemyHPManager;
     [SerializeField] private EndGamePanel endGamePanel;
     [SerializeField] private CardManager cardManager;
-    [SerializeField] private int cardsOnSubtraction = 2;
-    [SerializeField] private int shieldOnDivision = 10;
-    [SerializeField] private int cardsOnPower = 1;
     [SerializeField] private SoundManager soundManager;
 
     private int turnCounter = 0;
