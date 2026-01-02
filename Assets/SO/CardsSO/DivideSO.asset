@@ -15,3 +15,6 @@ MonoBehaviour:
   type: 5
   sprite: {fileID: 21300000, guid: 35451133d758703498685b3ed2b16d71, type: 3}
   value: /
+  effectType: 2
+  effectSprite: {fileID: 21300000, guid: 5b5adca5a8aa5744e9aa10c971002d8c, type: 3}
+  effectValue: 10

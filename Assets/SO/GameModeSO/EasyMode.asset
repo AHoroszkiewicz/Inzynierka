@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d10b060bc5945b4d89e92f8e7e1ffbd, type: 3}
   m_Name: EasyMode
   m_EditorClassIdentifier: Assembly-CSharp::GameModeSO
-  modeName: Easy
+  modeName: "\u0141atwy"
   playerHP: 200
   playerShield: 100
   enemyHP: 50

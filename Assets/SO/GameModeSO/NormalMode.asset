@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d10b060bc5945b4d89e92f8e7e1ffbd, type: 3}
   m_Name: NormalMode
   m_EditorClassIdentifier: Assembly-CSharp::GameModeSO
-  modeName: Normal
+  modeName: "\u015Aredni"
   playerHP: 100
   playerShield: 50
   enemyHP: 100

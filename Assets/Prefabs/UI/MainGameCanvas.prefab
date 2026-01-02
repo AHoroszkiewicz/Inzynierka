@@ -911,7 +911,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7997854750165170087, guid: 7c2680b4d38804345a724404b19d75b7, type: 3}
       propertyPath: m_text
-      value: Enemy
+      value: Przeciwnik
       objectReference: {fileID: 0}
     - target: {fileID: 8506145089666444828, guid: 7c2680b4d38804345a724404b19d75b7, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1585,7 +1585,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8963943731549818961, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
       propertyPath: m_text
-      value: End Turn
+      value: "Zako\u0144cz tur\u0119"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8963943731549818961, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
+      propertyPath: m_fontSize
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 8963943731549818961, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8963943731549818961, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 8963943731549818961, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
