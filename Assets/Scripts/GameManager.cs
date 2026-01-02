@@ -9,9 +9,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] private HPManager enemyHPManager;
     [SerializeField] private EndGamePanel endGamePanel;
     [SerializeField] private CardManager cardManager;
-    [SerializeField] private int cardsOnSubtraction = 2;
-    [SerializeField] private int shieldOnDivision = 10;
-    [SerializeField] private int cardsOnPower = 1;
     [SerializeField] private SoundManager soundManager;
 
     private int turnCounter = 0;
@@ -40,7 +37,7 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (isGameOver && Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2))
+        if (isGameOver && (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2)))
         { 
             EndGame();
         }
@@ -114,6 +111,7 @@ public class GameManager : MonoBehaviour
 
     public void EndGame()
     {
+        Debug.Log("Restarting game...");
         isPlayerTurn = true;
         isGameOver = false;
         SceneManager.LoadScene(0);

@@ -33,7 +33,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3745027014349616618}
-  - {fileID: 4662991713812034027}
+  - {fileID: 155887573998811297}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -80,7 +80,7 @@ MonoBehaviour:
     animationType: 6
     duration: 1
   buttons:
-  - {fileID: 4985821506850839892}
+  - {fileID: 553562944573232158}
   canvasGroup: {fileID: 3953299790117958906}
 --- !u!114 &5397891730341540356
 MonoBehaviour:
@@ -833,7 +833,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!1001 &645128151178384188
+--- !u!1001 &5362766863242893942
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -847,7 +847,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5207765222383461079, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
       propertyPath: m_Pivot.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5207765222383461079, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
       propertyPath: m_AnchorMax.x
@@ -855,7 +855,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5207765222383461079, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5207765222383461079, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
       propertyPath: m_AnchorMin.x
@@ -863,15 +863,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5207765222383461079, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5207765222383461079, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 160
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: 5207765222383461079, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 30
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207765222383461079, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207765222383461079, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207765222383461079, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 5207765222383461079, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -907,7 +919,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5207765222383461079, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -450
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 5207765222383461079, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -921,64 +933,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5207765222383461079, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5567714811413405224, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
       propertyPath: m_Navigation.m_Mode
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5567714811413405224, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5567714811413405224, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5567714811413405224, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 1426551798066273487}
-    - target: {fileID: 5567714811413405224, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5567714811413405224, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: CloseThisPanel
-      objectReference: {fileID: 0}
-    - target: {fileID: 5567714811413405224, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UIPanel, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 5567714811413405224, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 8319516593430968251, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
       propertyPath: m_Name
-      value: CancelButton
+      value: BackButton
       objectReference: {fileID: 0}
     - target: {fileID: 8963943731549818961, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
       propertyPath: m_text
-      value: Cancel
-      objectReference: {fileID: 0}
-    - target: {fileID: 8963943731549818961, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
-      propertyPath: m_fontSize
-      value: 21.7
+      value: Cofnij
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
---- !u!224 &4662991713812034027 stripped
+--- !u!224 &155887573998811297 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5207765222383461079, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
-  m_PrefabInstance: {fileID: 645128151178384188}
+  m_PrefabInstance: {fileID: 5362766863242893942}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4985821506850839892 stripped
+--- !u!114 &553562944573232158 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5603259260672626280, guid: db5ae15843da88244bbbef4203e1ffa1, type: 3}
-  m_PrefabInstance: {fileID: 645128151178384188}
+  m_PrefabInstance: {fileID: 5362766863242893942}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1

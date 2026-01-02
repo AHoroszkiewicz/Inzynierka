@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d10b060bc5945b4d89e92f8e7e1ffbd, type: 3}
   m_Name: HardMode
   m_EditorClassIdentifier: Assembly-CSharp::GameModeSO
-  modeName: Hard
+  modeName: Trudny
   playerHP: 50
   playerShield: 10
   enemyHP: 200

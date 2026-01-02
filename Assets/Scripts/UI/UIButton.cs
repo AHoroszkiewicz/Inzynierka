@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class UIButton : MonoBehaviour, ISelectHandler, IPointerEnterHandler
+public class UIButton : MonoBehaviour, ISelectHandler, IPointerEnterHandler, IPointerExitHandler
 {
     [SerializeField] Button button;
 
@@ -33,6 +33,11 @@ public class UIButton : MonoBehaviour, ISelectHandler, IPointerEnterHandler
     {
         EventSystem.current.SetSelectedGameObject(gameObject);
         OnSelect(null);
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        EventSystem.current.SetSelectedGameObject(null);
     }
 
     public void SetLabel(string label)
