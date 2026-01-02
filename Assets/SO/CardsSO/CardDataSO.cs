@@ -13,10 +13,21 @@ public enum CardType
     parenthesis = 8,
 }
 
+public enum CardEffectType
+{
+    None = 0,
+    DrawCards = 1,
+    AddShield = 2,
+    Heal = 3,
+}
+
 [CreateAssetMenu(fileName = "CardData", menuName = "Scriptable Objects/CardData")]
 public class CardDataSO : ScriptableObject
 {
     public CardType type;
     public Sprite sprite;
     public string value;
+    public CardEffectType effectType;
+    public Sprite effectSprite;
+    public int effectValue;
 }
