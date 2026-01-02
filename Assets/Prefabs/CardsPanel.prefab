@@ -95,7 +95,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: 15
+  m_Spacing: -150
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -119,9 +119,20 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 81858de25feeb96439be2b8534fdf725, type: 2}
   - {fileID: 11400000, guid: 41c81c41d7b917b44b7b4575ec51a082, type: 2}
   - {fileID: 11400000, guid: 2e5b439b4ba11d54e96fd0f14bfee94b, type: 2}
+  - {fileID: 11400000, guid: dae10fa20cfe198499f7b3da1da953d6, type: 2}
+  - {fileID: 11400000, guid: dbba2ff75f525c145a8df910e053d55e, type: 2}
+  - {fileID: 11400000, guid: 646e734eb0195234da2e72f53a7a3f8b, type: 2}
+  - {fileID: 11400000, guid: a3d187039200e634e95afede281b394f, type: 2}
+  - {fileID: 11400000, guid: 1e909521610c3d044b9e1ea576fa958f, type: 2}
+  - {fileID: 11400000, guid: cd2ba4a318d508a41b2d184dc6ea8d99, type: 2}
   - {fileID: 11400000, guid: e7dc03eff246bb844a3eefee2acbc418, type: 2}
   - {fileID: 11400000, guid: aae44ac0c4a9f4d4693bcac748ad8b3f, type: 2}
+  - {fileID: 11400000, guid: e125a3dd8f1838b41a7378ebbb167427, type: 2}
   - {fileID: 11400000, guid: a1f89b01ed2a96d49a6616a6789385d3, type: 2}
   - {fileID: 11400000, guid: 4c86320b406b5ba4ea556fbb146e9352, type: 2}
   cardPrefab: {fileID: 4337947395762045755, guid: 3d423f39474106c40a4e78a516a3fffa, type: 3}
   cardParent: {fileID: 5792476090586057494}
+  equationManager: {fileID: 0}
+  cardDragParent: {fileID: 0}
+  canvas: {fileID: 0}
+  cardNumber: 5

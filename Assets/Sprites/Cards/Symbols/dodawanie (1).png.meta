@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 13464ba9bf966004ab342cb82dce6533
+guid: 8e3a9fd3bd80773438cf64131aff4a0d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4309235373485505562
-    second: karta - liczba (2) (1)_0
+      213: 2466849889572832901
+    second: dodawanie (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: karta - liczba (2) (1)_0
+      name: dodawanie (1)_0
       rect:
         serializedVersion: 2
-        x: 359
-        y: 68
-        width: 545
-        height: 712
+        x: 175
+        y: 181
+        width: 158
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a1cb62aadba7dcb30800000000000000
-      internalID: 4309235373485505562
+      spriteID: 586433697e20c3220800000000000000
+      internalID: 2466849889572832901
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      karta - liczba (2) (1)_0: 4309235373485505562
+      dodawanie (1)_0: 2466849889572832901
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
