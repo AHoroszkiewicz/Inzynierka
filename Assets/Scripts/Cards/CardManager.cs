@@ -35,27 +35,36 @@ public class CardManager : MonoBehaviour
         DrawCards(); // Dobieramy karty na start
     }
 
-    public void DrawCards(int numberOfCards)
+    public void DrawCards(int targetHandSize)
     {
-        if (numberOfCards > maxCards)
-        {
-            numberOfCards = maxCards;
-        }
+        // nie przekraczamy maxCards
+        targetHandSize = Mathf.Min(targetHandSize, maxCards);
 
-        for (int i = 0; i < minNumberCards; i++)
+        // 1?? Dobierz brakuj¹ce Number
+        while (numberOfNumberCards < minNumberCards &&
+               currentHand.Count < targetHandSize)
         {
             DrawRandomFrom(numberCards);
+            numberOfNumberCards++;
         }
 
-        for (int i = 0; i < minSymbolCards; i++)
+        // 2?? Dobierz brakuj¹ce Symbol
+        while (numberOfSymbolCards < minSymbolCards &&
+               currentHand.Count < targetHandSize)
         {
             DrawRandomFrom(symbolCards);
+            numberOfSymbolCards++;
         }
 
-        int remaining = numberOfCards - minNumberCards - minSymbolCards;
-        for (int i = 0; i < remaining; i++)
+        // 3?? Dobierz resztê do targetHandSize
+        while (currentHand.Count < targetHandSize)
         {
             DrawRandomFrom(cardDataList);
+
+            if (currentHand[^1].Type == CardType.Number)
+                numberOfNumberCards++;
+            else
+                numberOfSymbolCards++;
         }
     }
 
@@ -80,6 +89,8 @@ public class CardManager : MonoBehaviour
             Destroy(card.gameObject);
         }
         currentHand.Clear();
+        numberOfNumberCards = 0;
+        numberOfSymbolCards = 0;
     }
 
     public void UseCard(Card card)
