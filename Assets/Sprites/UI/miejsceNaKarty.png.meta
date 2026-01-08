@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: fa6e075171ee3c74287dddcee96b1b1b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8110711099807702725
+    second: miejsceNaKarty_0
+  - first:
+      213: -3375083739283435794
+    second: miejsceNaKarty_1
+  - first:
+      213: -6171979763028113472
+    second: miejsceNaKarty_2
+  - first:
+      213: 8305314862537126013
+    second: miejsceNaKarty_3
+  - first:
+      213: -7175938730308438555
+    second: miejsceNaKarty_4
+  - first:
+      213: -2799105971655974183
+    second: miejsceNaKarty_5
+  - first:
+      213: -248061991810945850
+    second: miejsceNaKarty_6
+  - first:
+      213: 1312602368973135451
+    second: miejsceNaKarty_7
+  - first:
+      213: 476159721400629228
+    second: miejsceNaKarty_8
+  - first:
+      213: -7823026857326705782
+    second: miejsceNaKarty_9
+  - first:
+      213: -8010941726457831238
+    second: miejsceNaKarty_10
+  - first:
+      213: -8309632402798641111
+    second: miejsceNaKarty_11
+  - first:
+      213: 3561291571449305741
+    second: miejsceNaKarty_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: miejsceNaKarty_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 21
+        width: 71
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce1bdbd5c80f8070800000000000000
+      internalID: 8110711099807702725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miejsceNaKarty_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 25
+        width: 19
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee40d8983b4921d0800000000000000
+      internalID: -3375083739283435794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miejsceNaKarty_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 25
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c74fc72b19b85aa0800000000000000
+      internalID: -6171979763028113472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miejsceNaKarty_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 12
+        width: 19
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d703c413dd7624370800000000000000
+      internalID: 8305314862537126013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miejsceNaKarty_4
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 23
+        width: 43
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e57ff99eb1f96c90800000000000000
+      internalID: -7175938730308438555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miejsceNaKarty_5
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 23
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d265c6f2f39729d0800000000000000
+      internalID: -2799105971655974183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miejsceNaKarty_6
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 25
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc25d7cee4be8cf0800000000000000
+      internalID: -248061991810945850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miejsceNaKarty_7
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 24
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5edafd66ec473210800000000000000
+      internalID: 1312602368973135451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miejsceNaKarty_8
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 24
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce7fe6a6eb8ab9600800000000000000
+      internalID: 476159721400629228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miejsceNaKarty_9
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 24
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8383bc75860f6390800000000000000
+      internalID: -7823026857326705782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miejsceNaKarty_10
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 24
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0602e81fa63d090800000000000000
+      internalID: -8010941726457831238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miejsceNaKarty_11
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 24
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9208c112b514eac80800000000000000
+      internalID: -8309632402798641111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miejsceNaKarty_12
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 25
+        width: 111
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a14d1d0df3c6130800000000000000
+      internalID: 3561291571449305741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      miejsceNaKarty_0: 8110711099807702725
+      miejsceNaKarty_1: -3375083739283435794
+      miejsceNaKarty_10: -8010941726457831238
+      miejsceNaKarty_11: -8309632402798641111
+      miejsceNaKarty_12: 3561291571449305741
+      miejsceNaKarty_2: -6171979763028113472
+      miejsceNaKarty_3: 8305314862537126013
+      miejsceNaKarty_4: -7175938730308438555
+      miejsceNaKarty_5: -2799105971655974183
+      miejsceNaKarty_6: -248061991810945850
+      miejsceNaKarty_7: 1312602368973135451
+      miejsceNaKarty_8: 476159721400629228
+      miejsceNaKarty_9: -7823026857326705782
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,10 +2,13 @@ using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class EquationManager : MonoBehaviour, IDropHandler
 {
     [SerializeField] private TextMeshProUGUI equationText;
+    [SerializeField] private Image TxtImage;
+    [SerializeField] private TextMeshProUGUI resultText;
     
     private GameManager gameController => GameManager.Instance;
     private string equation;
@@ -13,9 +16,11 @@ public class EquationManager : MonoBehaviour, IDropHandler
 
     public void AddToEquation(string value)
     {
+        TxtImage.enabled = false;
         equation += value;
         EvaluateExpression();
-        equationText.text = equation + " = " + result.ToString();
+        equationText.text = equation;
+        resultText.text = result.ToString();
     }
 
     private void EvaluateExpression()
@@ -42,7 +47,9 @@ public class EquationManager : MonoBehaviour, IDropHandler
     {
         equation = "";
         result = 0;
-        equationText.text = equation + " = " + result.ToString();
+        equationText.text = equation + "";
+        resultText.text = "";
+        TxtImage.enabled = true;
     }
 
     public void OnDrop(PointerEventData eventData)
