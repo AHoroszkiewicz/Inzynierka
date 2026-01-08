@@ -2,20 +2,26 @@ using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class EquationManager : MonoBehaviour, IDropHandler
 {
     [SerializeField] private TextMeshProUGUI equationText;
+    [SerializeField] private Image TxtImage;
+    [SerializeField] private TextMeshProUGUI resultText;
     
     private GameManager gameController => GameManager.Instance;
     private string equation;
     private double result;
+    private bool previousCardWasNumber = false;
 
     public void AddToEquation(string value)
     {
+        TxtImage.enabled = false;
         equation += value;
         EvaluateExpression();
-        equationText.text = equation + " = " + result.ToString();
+        equationText.text = equation;
+        resultText.text = result.ToString();
     }
 
     private void EvaluateExpression()
@@ -42,12 +48,18 @@ public class EquationManager : MonoBehaviour, IDropHandler
     {
         equation = "";
         result = 0;
-        equationText.text = equation + " = " + result.ToString();
+        equationText.text = equation + "";
+        resultText.text = "";
+        TxtImage.enabled = true;
     }
 
     public void OnDrop(PointerEventData eventData)
     {
-        eventData.pointerDrag?.GetComponent<Card>()?.OnClick();
+        Card card = eventData.pointerDrag?.GetComponent<Card>();
+        if (card == null || (previousCardWasNumber && card.Type == CardType.Number) || (!previousCardWasNumber && card.Type != CardType.Number))
+            return;
+        previousCardWasNumber = !previousCardWasNumber;
+        card.OnClick();
     }
 
     public void DealDMG()
