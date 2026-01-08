@@ -13,6 +13,7 @@ public class EquationManager : MonoBehaviour, IDropHandler
     private GameManager gameController => GameManager.Instance;
     private string equation;
     private double result;
+    private bool previousCardWasNumber = false;
 
     public void AddToEquation(string value)
     {
@@ -54,7 +55,11 @@ public class EquationManager : MonoBehaviour, IDropHandler
 
     public void OnDrop(PointerEventData eventData)
     {
-        eventData.pointerDrag?.GetComponent<Card>()?.OnClick();
+        Card card = eventData.pointerDrag?.GetComponent<Card>();
+        if (card == null || (previousCardWasNumber && card.Type == CardType.Number) || (!previousCardWasNumber && card.Type != CardType.Number))
+            return;
+        previousCardWasNumber = !previousCardWasNumber;
+        card.OnClick();
     }
 
     public void DealDMG()
