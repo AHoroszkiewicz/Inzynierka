@@ -29,6 +29,10 @@ public class EquationManager : MonoBehaviour, IDropHandler
         try
         {
             result = Evaluate(equation);
+            if (double.IsInfinity(result) || double.IsNaN(result))
+            {
+                result = 0;
+            }
             Debug.Log("Result: " + result);
         }
         catch (Exception e)
@@ -51,6 +55,7 @@ public class EquationManager : MonoBehaviour, IDropHandler
         equationText.text = equation + "";
         resultText.text = "";
         TxtImage.enabled = true;
+        previousCardWasNumber = false;
     }
 
     public void OnDrop(PointerEventData eventData)
