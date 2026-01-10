@@ -29,10 +29,9 @@ cd your-repo
 ---
 
 ## 🎮 **Running the Project**
-Project doesn't have a working build yet.  
-1. Open the main scene:  
-   - Navigate to `Assets/Scenes/MainMenu.unity`
-2. Press **▶ Play** in the Unity Editor.  
+1. Download the newest release from https://github.com/AHoroszkiewicz/Inzynierka/releases
+2. Unzip the folder.
+3. Run `MathWars.exe`
 
 ---
 
