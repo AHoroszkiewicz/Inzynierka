@@ -1,7 +1,7 @@
 ## 🚀 **Prerequisites**  
 1. **Unity Hub** ([Download here](https://unity.com/download))  
-2. **Unity Editor 6000.0.41f1**  
-   - Install via Unity Hub → `Installs` → `Add` → Select version `6000.0.41f1`.  
+2. **Unity Editor 6000.2.14f1**  
+   - Install via Unity Hub → `Installs` → `Add` → Select version `6000.2.14f1`.  
 3. **Git** ([Download here](https://git-scm.com/)) or another git client of choice  
 
 ---
@@ -17,9 +17,9 @@ cd your-repo
 ### **2. Open the Project in Unity**  
 - Launch **Unity Hub**  
 - Click `Open` → Select the cloned project folder  
-- Ensure Unity **6000.0.41f1** is selected  
+- Ensure Unity **6000.2.14f1** is selected  
 
-> ⚠️ **If prompted to upgrade/downgrade**, **DO NOT** proceed. Use **only 6000.0.41f1**.  
+> ⚠️ **If prompted to upgrade/downgrade**, **DO NOT** proceed. Use **6000.2.14f1**.  
 
 ### **3. Resolve Dependencies (If Needed)**  
 - If errors appear, try:  
@@ -39,7 +39,7 @@ Project doesn't have a working build yet.
 ## 📦 **Project Structure**  
 ```
 Assets/
-├── Audio/                          # Future audio files
+├── Audio/                          # Audio files
 │
 ├── Plugins/                        # Plugin related files
 │
@@ -53,14 +53,22 @@ Assets/
 │
 ├── Scripts/                        # C# scripts
 │   ├── Cards/                      # Card related scripts
+│   │    └── Effects/               # Card effects related scripts
 │   └── UI/                         # UI related scripts
 │
 ├── Settings/                       # Unity settings files
 │
 ├── SO/                             # Scriptable Objects
-│   └── CardsSO/                      # Cards related SO
+│   ├── CardsSO/                    # Cards related SO
+│   │    ├── Numbers/               # Cards SO with numbers
+│   │    └── Symbols/               # Cards SO with symbols
+│   └── GameModeSO/                 # Game mode related SO
 │
 ├── Sprites/                        # 2D textures and UI art
+│   ├── Cards/                      # Sprites related with cards
+│   │    ├── Numbers/               # Sprites of numbers for cards
+│   │    └── Symbols/               # Sprites of symbols for cards
+│   └── UI/                         # UI related sprites
 │
 └── TextMesh Pro/                   # TMPro related files
 
