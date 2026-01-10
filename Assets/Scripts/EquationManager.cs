@@ -52,8 +52,8 @@ public class EquationManager : MonoBehaviour, IDropHandler
     {
         equation = "";
         result = 0;
-        equationText.text = equation + "";
-        resultText.text = "";
+        equationText.text = equation;
+        resultText.text = result.ToString();
         TxtImage.enabled = true;
         previousCardWasNumber = false;
     }
