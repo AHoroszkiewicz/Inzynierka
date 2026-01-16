@@ -1,5 +1,5 @@
 Instrukcja uruchomienia projektu:
-  -Rozpakuj MathWars.zip
+  -Rozpakuj MathWars_Kod.zip
   -Uruchom Unity Hub
   -Kliknij Open i wskaż folder, do którego rozpakowano projekt
   -Upewnij się, że wybrana wersja Unity to 6000.2.14f1
