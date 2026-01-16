@@ -1,0 +1,11 @@
+Instrukcja uruchomienia projektu:
+  -Rozpakuj MathWars.zip
+  -Uruchom Unity Hub
+  -Kliknij Open i wskaż folder, do którego rozpakowano projekt
+  -Upewnij się, że wybrana wersja Unity to 6000.2.14f1
+  (Jeśli pojawi się komunikat o aktualizacji lub zmianie wersji, nie zgadzaj się - użyj dokładnie wersji 6000.2.14f1)
+
+Rozwiązanie zależności (jeśli wystąpią błędy)
+  Jeśli pojawią się błędy:
+  -Wejdź w Window > Package Manager i zaktualizuj pakiety
+  -Wykonaj ponowne zaimportowanie zasobów: Assets > Reimport All
